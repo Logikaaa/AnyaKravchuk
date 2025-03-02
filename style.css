@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'Montserrat';
+}
+
+.question{
+    font-weight: 700;
+    text-align: center;}
+
+@media screen and (max-width: 767px){
+    .question{
+        font-size: 60px;
+
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1599){
+    .question{
+        font-size: 100px;
+    }
+}
+
+@media screen and (min-width: 1600){
+    .question{
+        font-size: 200px;
+    }
+}
+
